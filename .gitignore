@@ -1,0 +1,90 @@
+# ==========================================
+# Python bytecode / cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==========================================
+# Virtual Environments (venv / virtualenv)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# ==========================================
+# Conda Environments
+# ==========================================
+conda-env/
+conda_env/
+.envs/
+.anaconda_backup/
+
+# If you create named env folders inside project
+myenv/
+python-env/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# Optional: keep shared settings, ignore only local files
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs / Temp Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# Build / Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+.env
+.env.*
+*.key
+*.pem
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# IDEs
+# ==========================================
+.idea/
+*.swp
+*.swo
